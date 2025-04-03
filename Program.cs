@@ -15,7 +15,8 @@ namespace AutoCyberChatBot //ST10278605 //Siphesihle Mavuso
             //Greetings
             VoiceGreeting();
 
-
+            //Display
+            LogoDisplay();
 
         }
 
@@ -31,6 +32,24 @@ namespace AutoCyberChatBot //ST10278605 //Siphesihle Mavuso
             {
                 Console.WriteLine("[Error playing sound: " + ex.Message + "]");
             }
+        }
+
+        //Display
+        public static void LogoDisplay()
+        {
+            Console.WriteLine(@"\n
+
+                                       .----. 
+                                      ( o  o ) 
+                                      |  --  |
+                                      |______|
+                                    /|        |\
+                                   / |        | \
+                                  *  *        *  *
+  
+                               CYBERSECURITY CHATBOT 
+         ""Ensuring your safety by protecting our conversations one message at a Time");
+
         }
 
 
